@@ -1,0 +1,174 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+-- Found irobot_create_toolbox: 2.1.0 (/home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/locobot/interbotix_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/interbotix_ws/build/irobot_create_nodes
+[35m[1mConsolidate compiler generated dependencies of target hazard_publisher_lib[0m
+[  2%] [32mBuilding CXX object CMakeFiles/hazard_publisher_lib.dir/src/hazards_vector_publisher.cpp.o[0m
+[  5%] [32m[1mLinking CXX shared library libhazard_publisher_lib.so[0m
+[  5%] Built target hazard_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target ir_intensity_vector_publisher[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ir_intensity_vector_publisher.dir/rclcpp_components/node_main_ir_intensity_vector_publisher.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable ir_intensity_vector_publisher[0m
+[ 10%] Built target ir_intensity_vector_publisher
+[35m[1mConsolidate compiler generated dependencies of target motion_control_lib[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/reflex_behavior.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_states.cpp.o[0m
+[ 29%] [32m[1mLinking CXX shared library libmotion_control_lib.so[0m
+[ 29%] Built target motion_control_lib
+[35m[1mConsolidate compiler generated dependencies of target motion_control[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable motion_control[0m
+[ 35%] Built target motion_control
+[35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher_lib[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher_lib.dir/src/wheels_publisher.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libwheel_status_publisher_lib.so[0m
+[ 40%] Built target wheel_status_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher.dir/rclcpp_components/node_main_wheel_status_publisher.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable wheel_status_publisher[0m
+[ 45%] Built target wheel_status_publisher
+[35m[1mConsolidate compiler generated dependencies of target robot_state_lib[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library librobot_state_lib.so[0m
+[ 51%] Built target robot_state_lib
+[35m[1mConsolidate compiler generated dependencies of target robot_state[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robot_state.dir/rclcpp_components/node_main_robot_state.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable robot_state[0m
+[ 56%] Built target robot_state
+[35m[1mConsolidate compiler generated dependencies of target ui_mgr_lib[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libui_mgr_lib.so[0m
+[ 62%] Built target ui_mgr_lib
+[35m[1mConsolidate compiler generated dependencies of target ui_mgr[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ui_mgr.dir/rclcpp_components/node_main_ui_mgr.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable ui_mgr[0m
+[ 67%] Built target ui_mgr
+[35m[1mConsolidate compiler generated dependencies of target mock_publisher_lib[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/mock_publisher_lib.dir/src/mock_publisher.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libmock_publisher_lib.so[0m
+[ 72%] Built target mock_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target mock_publisher[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mock_publisher.dir/rclcpp_components/node_main_mock_publisher.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable mock_publisher[0m
+[ 78%] Built target mock_publisher
+[35m[1mConsolidate compiler generated dependencies of target kidnap_estimator_publisher_lib[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libkidnap_estimator_publisher_lib.so[0m
+[ 83%] Built target kidnap_estimator_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target kidnap_estimator_publisher[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable kidnap_estimator_publisher[0m
+[ 89%] Built target kidnap_estimator_publisher
+[35m[1mConsolidate compiler generated dependencies of target ir_intensity_publisher_lib[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/ir_intensity_publisher_lib.dir/src/ir_intensity_vector_publisher.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libir_intensity_publisher_lib.so[0m
+[ 94%] Built target ir_intensity_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target hazards_vector_publisher[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/hazards_vector_publisher.dir/rclcpp_components/node_main_hazards_vector_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hazards_vector_publisher[0m
+[100%] Built target hazards_vector_publisher
+-- Install configuration: ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/librobot_state_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/librobot_state_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so" to ""
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+-- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so" to ""
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.xml

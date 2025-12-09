@@ -1,0 +1,222 @@
+[0.028s] Invoking command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DCMAKE_INSTALL_PREFIX=/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.402s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.564s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.662s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.698s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.711s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.952s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.953s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.051s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.284s] -- Looking for pthread.h
+[1.362s] -- Looking for pthread.h - found
+[1.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.452s] -- Found Threads: TRUE  
+[2.099s] -- Found rviz2: 11.2.11 (/opt/ros/humble/share/rviz2/cmake)
+[2.101s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.103s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.187s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.197s] -- Added test 'lint_cmake' to check CMake code style
+[2.198s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.203s] -- Added test 'xmllint' to check XML markup files
+[2.205s] -- Configuring done
+[2.209s] -- Generating done
+[2.210s] -- Build files have been written to: /home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions
+[2.224s] Invoked command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/locobot/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DCMAKE_INSTALL_PREFIX=/home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions
+[2.225s] Invoking command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions -- -j4 -l4
+[2.260s] Invoked command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions -- -j4 -l4
+[2.277s] Invoking command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions
+[2.284s] -- Install configuration: ""
+[2.284s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf
+[2.284s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx200.urdf.xacro
+[2.285s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250.urdf.xacro
+[2.285s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_px100.urdf.xacro
+[2.285s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px100.urdf.xacro
+[2.285s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250s.urdf.xacro
+[2.286s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx250.urdf.xacro
+[2.286s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px150.urdf.xacro
+[2.287s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx250s.urdf.xacro
+[2.287s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx150.urdf.xacro
+[2.287s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300s.urdf.xacro
+[2.287s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx200.urdf.xacro
+[2.288s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx200.urdf.xacro
+[2.288s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300.urdf.xacro
+[2.288s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/gazebo_configs.urdf.xacro
+[2.289s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/control.urdf.xacro
+[2.289s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/ar_tag.urdf.xacro
+[2.289s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch
+[2.289s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/remote_view.launch.py
+[2.289s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/xsarm_description.launch.py
+[2.290s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes
+[2.290s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes
+[2.290s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_bar.stl
+[2.290s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/base.stl
+[2.291s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_prop.stl
+[2.292s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/shoulder.stl
+[2.292s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/forearm.stl
+[2.292s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper.stl
+[2.293s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/wrist.stl
+[2.293s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_finger.stl
+[2.294s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/upper_arm.stl
+[2.294s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes
+[2.294s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_bar.stl
+[2.295s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/lower_forearm.stl
+[2.295s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/base.stl
+[2.297s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_prop.stl
+[2.297s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/shoulder.stl
+[2.298s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper.stl
+[2.298s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/wrist.stl
+[2.299s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_finger.stl
+[2.300s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_arm.stl
+[2.300s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_forearm.stl
+[2.301s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes
+[2.301s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_bar.stl
+[2.301s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/base.stl
+[2.303s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_prop.stl
+[2.303s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/shoulder.stl
+[2.303s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/forearm.stl
+[2.304s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper.stl
+[2.304s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_finger.stl
+[2.305s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/upper_arm.stl
+[2.305s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes
+[2.305s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_bar.stl
+[2.306s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/base.stl
+[2.306s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_prop.stl
+[2.306s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/shoulder.stl
+[2.307s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/forearm.stl
+[2.307s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper.stl
+[2.308s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/wrist.stl
+[2.308s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_finger.stl
+[2.308s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/upper_arm.stl
+[2.309s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes
+[2.309s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_bar.stl
+[2.309s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/base.stl
+[2.310s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_prop.stl
+[2.310s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/shoulder.stl
+[2.310s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/forearm.stl
+[2.311s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper.stl
+[2.311s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_finger.stl
+[2.312s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/upper_arm.stl
+[2.312s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes
+[2.312s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_bar.stl
+[2.312s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/base.stl
+[2.314s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_prop.stl
+[2.315s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/shoulder.stl
+[2.315s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/forearm.stl
+[2.315s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper.stl
+[2.316s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/wrist.stl
+[2.317s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_finger.stl
+[2.318s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/upper_arm.stl
+[2.318s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes
+[2.319s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_bar.stl
+[2.321s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/base.stl
+[2.322s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_prop.stl
+[2.322s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/shoulder.stl
+[2.323s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/forearm.stl
+[2.323s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper.stl
+[2.324s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/wrist.stl
+[2.325s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_finger.stl
+[2.326s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/upper_arm.stl
+[2.326s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes
+[2.326s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_bar.stl
+[2.327s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/base.stl
+[2.328s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_prop.stl
+[2.328s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/shoulder.stl
+[2.328s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/forearm.stl
+[2.329s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper.stl
+[2.329s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/wrist.stl
+[2.330s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_finger.stl
+[2.330s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/upper_arm.stl
+[2.331s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/ar_tag.stl
+[2.331s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes
+[2.331s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_bar.stl
+[2.333s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/lower_forearm.stl
+[2.334s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/base.stl
+[2.335s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_prop.stl
+[2.335s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/shoulder.stl
+[2.336s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper.stl
+[2.337s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/wrist.stl
+[2.337s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_finger.stl
+[2.338s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_arm.stl
+[2.338s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_forearm.stl
+[2.339s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes
+[2.339s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_bar.stl
+[2.339s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/lower_forearm.stl
+[2.340s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/base.stl
+[2.340s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_prop.stl
+[2.341s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/shoulder.stl
+[2.341s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper.stl
+[2.341s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/wrist.stl
+[2.342s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_finger.stl
+[2.342s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_arm.stl
+[2.343s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_forearm.stl
+[2.343s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/interbotix_black.png
+[2.343s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes
+[2.343s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_bar.stl
+[2.344s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/base.stl
+[2.344s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_prop.stl
+[2.344s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/shoulder.stl
+[2.345s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/forearm.stl
+[2.345s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper.stl
+[2.346s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/wrist.stl
+[2.346s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_finger.stl
+[2.346s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/upper_arm.stl
+[2.347s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes
+[2.347s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_bar.stl
+[2.347s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/base.stl
+[2.348s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_prop.stl
+[2.348s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/shoulder.stl
+[2.349s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/forearm.stl
+[2.349s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper.stl
+[2.350s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/wrist.stl
+[2.350s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_finger.stl
+[2.350s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/upper_arm.stl
+[2.351s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes
+[2.351s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_bar.stl
+[2.351s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/base.stl
+[2.352s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_prop.stl
+[2.352s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/shoulder.stl
+[2.353s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/forearm.stl
+[2.353s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper.stl
+[2.353s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/wrist.stl
+[2.354s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_finger.stl
+[2.354s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/upper_arm.stl
+[2.355s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//rviz
+[2.355s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//rviz/xsarm_description.rviz
+[2.355s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/package_run_dependencies/interbotix_xsarm_descriptions
+[2.355s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/parent_prefix_path/interbotix_xsarm_descriptions
+[2.355s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.sh
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.dsv
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.sh
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.dsv
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.bash
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.sh
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.zsh
+[2.356s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.dsv
+[2.357s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.dsv
+[2.357s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/packages/interbotix_xsarm_descriptions
+[2.357s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig.cmake
+[2.357s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig-version.cmake
+[2.357s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.xml
+[2.359s] Invoked command in '/home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_sdk:/home/locobot/interbotix_ws/install/interbotix_xs_driver:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox:/home/locobot/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_driver/lib:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/locobot/interbotix_ws/build/interbotix_xsarm_descriptions

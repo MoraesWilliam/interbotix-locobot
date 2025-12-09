@@ -1,0 +1,65 @@
+[1.330s] Invoking command in '/home/locobot/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/build/interbotix_perception_modules/prefix_override:/home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_perception_modules build --build-base /home/locobot/interbotix_ws/build/interbotix_perception_modules/build install --record /home/locobot/interbotix_ws/build/interbotix_perception_modules/install.log --single-version-externally-managed install_data
+[1.631s] running egg_info
+[1.639s] creating ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info
+[1.639s] writing ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/PKG-INFO
+[1.639s] writing dependency_links to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/dependency_links.txt
+[1.639s] writing entry points to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/entry_points.txt
+[1.640s] writing requirements to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/requires.txt
+[1.640s] writing top-level names to ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/top_level.txt
+[1.640s] writing manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+[1.640s] reading manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+[1.640s] writing manifest file '../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info/SOURCES.txt'
+[1.640s] running build
+[1.640s] running build_py
+[1.640s] creating /home/locobot/interbotix_ws/build/interbotix_perception_modules/build
+[1.640s] creating /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib
+[1.641s] creating /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/pointcloud.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/armtag_tuner_gui.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/__init__.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/apriltag.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/picture_snapper.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/armtag.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.641s] copying interbotix_perception_modules/pointcloud_tuner_gui.py -> /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules
+[1.642s] running install
+[1.642s] running install_lib
+[1.643s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.643s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/pointcloud.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.643s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/armtag_tuner_gui.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.644s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/__init__.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.644s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/apriltag.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.644s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/picture_snapper.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.644s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/armtag.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.644s] copying /home/locobot/interbotix_ws/build/interbotix_perception_modules/build/lib/interbotix_perception_modules/pointcloud_tuner_gui.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules
+[1.645s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/pointcloud.py to pointcloud.cpython-310.pyc
+[1.650s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/armtag_tuner_gui.py to armtag_tuner_gui.cpython-310.pyc
+[1.651s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/__init__.py to __init__.cpython-310.pyc
+[1.651s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/apriltag.py to apriltag.cpython-310.pyc
+[1.653s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/picture_snapper.py to picture_snapper.cpython-310.pyc
+[1.654s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/armtag.py to armtag.cpython-310.pyc
+[1.656s] byte-compiling /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules/pointcloud_tuner_gui.py to pointcloud_tuner_gui.cpython-310.pyc
+[1.658s] running install_data
+[1.658s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/ament_index
+[1.658s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/ament_index/resource_index
+[1.658s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+[1.658s] copying resource/interbotix_perception_modules -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+[1.658s] copying package.xml -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules
+[1.658s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+[1.658s] copying launch/armtag.launch.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+[1.659s] copying launch/pc_filter.launch.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+[1.659s] copying launch/picture_snapper.launch.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+[1.659s] copying launch/apriltag.launch.py -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+[1.659s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+[1.659s] copying config/tags.yaml -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+[1.660s] copying config/filter_params.yaml -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+[1.660s] creating /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+[1.660s] copying src/ui/armtagtunergui.ui -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+[1.660s] copying src/ui/pointcloudtunergui.ui -> /home/locobot/interbotix_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+[1.661s] running install_egg_info
+[1.663s] Copying ../../../../build/interbotix_perception_modules/interbotix_perception_modules.egg-info to /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix_perception_modules-0.0.0-py3.10.egg-info
+[1.664s] running install_scripts
+[1.685s] Installing armtag_tuner_gui script to /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+[1.685s] Installing picture_snapper script to /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+[1.685s] Installing pointcloud_tuner_gui script to /home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+[1.685s] writing list of installed files to '/home/locobot/interbotix_ws/build/interbotix_perception_modules/install.log'
+[1.717s] Invoked command in '/home/locobot/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules' returned '0': AMENT_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:/home/locobot/interbotix_ws/install/interbotix_common_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/locobot/interbotix_ws/install/interbotix_perception_pipelines:/home/locobot/interbotix_ws/install/interbotix_xs_msgs:/home/locobot/interbotix_ws/install/interbotix_perception_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib:/home/locobot/interbotix_ws/install/interbotix_perception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/locobot/interbotix_ws/build/interbotix_perception_modules/prefix_override:/home/locobot/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/locobot/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_perception_modules build --build-base /home/locobot/interbotix_ws/build/interbotix_perception_modules/build install --record /home/locobot/interbotix_ws/build/interbotix_perception_modules/install.log --single-version-externally-managed install_data

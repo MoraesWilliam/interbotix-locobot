@@ -1,0 +1,624 @@
+[0.051s] Invoking command in '/home/locobot/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/detection:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4
+[0.429s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.429s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.495s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.543s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.360s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.569s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.616s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.616s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.616s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.850s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.887s] -- Configuring done
+[3.016s] -- Generating done
+[3.018s] -- Build files have been written to: /home/locobot/interbotix_ws/build/interbotix_xs_msgs
+[3.073s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.104s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.148s] [  1%] Built target ament_cmake_python_copy_interbotix_xs_msgs
+[4.041s] running egg_info
+[4.041s] writing interbotix_xs_msgs.egg-info/PKG-INFO
+[4.041s] writing dependency_links to interbotix_xs_msgs.egg-info/dependency_links.txt
+[4.041s] writing top-level names to interbotix_xs_msgs.egg-info/top_level.txt
+[4.047s] reading manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[4.048s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[4.099s] [  1%] Built target ament_cmake_python_build_interbotix_xs_msgs_egg
+[11.981s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_generator_c[0m
+[12.021s] [  1%] Built target interbotix_xs_msgs__cpp
+[12.038s] [  2%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_group_command__functions.c.o[0m
+[12.051s] [  2%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/arm_joy__functions.c.o[0m
+[12.055s] [  3%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/hex_joy__functions.c.o[0m
+[12.076s] [  4%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_single_command__functions.c.o[0m
+[12.285s] [  4%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_temps__functions.c.o[0m
+[12.325s] [  5%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.c.o[0m
+[12.333s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.358s] [  7%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/locobot_joy__functions.c.o[0m
+[12.525s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.618s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/turret_joy__functions.c.o[0m
+[12.651s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.923s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/motor_gains__functions.c.o[0m
+[13.327s] [ 10%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/operating_modes__functions.c.o[0m
+[13.752s] [ 11%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/reboot__functions.c.o[0m
+[13.972s] [ 12%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/register_values__functions.c.o[0m
+[14.218s] [ 12%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/robot_info__functions.c.o[0m
+[14.636s] [ 13%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/torque_enable__functions.c.o[0m
+[15.010s] [ 14%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_generator_c.so[0m
+[15.173s] [ 14%] Built target interbotix_xs_msgs__rosidl_generator_c
+[15.235s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.321s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[26.421s] [ 16%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/arm_joy__type_support.cpp.o[0m
+[26.999s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_cpp[0m
+[27.057s] [ 17%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[27.944s] [ 18%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[27.976s] [ 19%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/hex_joy__type_support.cpp.o[0m
+[28.039s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp[0m
+[28.101s] [ 20%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/arm_joy__type_support.cpp.o[0m
+[28.414s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c[0m
+[28.496s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support_c.cpp.o[0m
+[28.752s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[29.195s] [ 22%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[29.281s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/hex_joy__type_support.cpp.o[0m
+[29.544s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_group_command__type_support.cpp.o[0m
+[29.797s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support_c.cpp.o[0m
+[29.975s] [ 24%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[30.559s] [ 24%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[30.732s] [ 25%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.cpp.o[0m
+[30.795s] [ 26%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support_c.cpp.o[0m
+[31.499s] [ 27%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_single_command__type_support.cpp.o[0m
+[31.624s] [ 28%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[32.308s] [ 29%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support_c.cpp.o[0m
+[32.308s] [ 29%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.cpp.o[0m
+[32.599s] [ 30%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_temps__type_support.cpp.o[0m
+[32.605s] [ 31%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[33.421s] [ 32%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support_c.cpp.o[0m
+[33.459s] [ 33%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[33.600s] [ 34%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_temps__type_support.cpp.o[0m
+[34.142s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_trajectory_command__type_support.cpp.o[0m
+[34.165s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support_c.cpp.o[0m
+[34.450s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[34.675s] [ 36%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.cpp.o[0m
+[35.048s] [ 37%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support_c.cpp.o[0m
+[35.505s] [ 38%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[35.537s] [ 39%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.cpp.o[0m
+[35.869s] [ 39%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/locobot_joy__type_support.cpp.o[0m
+[35.997s] [ 40%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support_c.cpp.o[0m
+[36.406s] [ 41%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[36.912s] [ 42%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support_c.cpp.o[0m
+[37.177s] [ 42%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/turret_joy__type_support.cpp.o[0m
+[37.586s] [ 43%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/turret_joy__type_support.cpp.o[0m
+[37.731s] [ 44%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[38.534s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/motor_gains__type_support.cpp.o[0m
+[38.655s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support_c.cpp.o[0m
+[38.710s] [ 46%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/motor_gains__type_support.cpp.o[0m
+[39.233s] [ 46%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[39.473s] [ 47%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/operating_modes__type_support.cpp.o[0m
+[39.804s] [ 48%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/operating_modes__type_support.cpp.o[0m
+[40.297s] [ 49%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/reboot__type_support_c.cpp.o[0m
+[40.880s] [ 50%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_cpp.so[0m
+[41.020s] [ 50%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[41.191s] [ 51%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/register_values__type_support_c.cpp.o[0m
+[41.236s] [ 52%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/reboot__type_support.cpp.o[0m
+[41.548s] [ 52%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/reboot__type_support.cpp.o[0m
+[42.283s] [ 53%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/robot_info__type_support_c.cpp.o[0m
+[42.447s] [ 53%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/register_values__type_support.cpp.o[0m
+[43.016s] [ 54%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/register_values__type_support.cpp.o[0m
+[43.273s] [ 55%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/robot_info__type_support.cpp.o[0m
+[43.853s] [ 55%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support_c.cpp.o[0m
+[44.323s] [ 56%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/torque_enable__type_support.cpp.o[0m
+[44.367s] [ 57%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/robot_info__type_support.cpp.o[0m
+[44.942s] [ 58%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[44.977s] [ 59%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[45.118s] [ 59%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[45.200s] [ 59%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[45.702s] [ 60%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/torque_enable__type_support.cpp.o[0m
+[46.453s] [ 60%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[46.638s] [ 60%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[46.657s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[50.722s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_c[0m
+[50.739s] [ 61%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[50.784s] [ 62%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[50.827s] [ 63%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[50.871s] [ 63%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[50.917s] [ 64%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[50.965s] [ 65%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[51.017s] [ 66%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[51.063s] [ 66%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[51.119s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[51.169s] [ 68%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[51.222s] [ 69%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[51.270s] [ 69%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[51.323s] [ 70%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[51.370s] [ 71%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[51.420s] [ 72%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_c.so[0m
+[51.489s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[51.513s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[56.294s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_c[0m
+[56.323s] [ 74%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support.c.o[0m
+[56.372s] [ 75%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.c.o[0m
+[56.422s] [ 76%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support.c.o[0m
+[56.486s] [ 77%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.c.o[0m
+[56.550s] [ 77%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.c.o[0m
+[56.601s] [ 78%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support.c.o[0m
+[56.664s] [ 79%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support.c.o[0m
+[56.731s] [ 79%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support.c.o[0m
+[56.790s] [ 80%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/reboot__type_support.c.o[0m
+[56.853s] [ 81%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/register_values__type_support.c.o[0m
+[56.915s] [ 82%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/robot_info__type_support.c.o[0m
+[57.025s] [ 82%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support.c.o[0m
+[57.119s] [ 82%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.c.o[0m
+[57.196s] [ 83%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support.c.o[0m
+[57.262s] [ 84%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so[0m
+[57.324s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[57.358s] [ 84%] Built target interbotix_xs_msgs
+[57.390s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[67.523s] [ 85%] Built target interbotix_xs_msgs__py
+[67.547s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_generator_py[0m
+[67.579s] [ 86%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_arm_joy_s.c.o[0m
+[67.750s] [ 87%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_single_command_s.c.o[0m
+[67.915s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_temps_s.c.o[0m
+[68.114s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c.o[0m
+[68.321s] [ 89%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_locobot_joy_s.c.o[0m
+[68.529s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_turret_joy_s.c.o[0m
+[68.689s] [ 91%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_motor_gains_s.c.o[0m
+[68.871s] [ 91%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_operating_modes_s.c.o[0m
+[69.047s] [ 92%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_reboot_s.c.o[0m
+[69.221s] [ 93%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_register_values_s.c.o[0m
+[69.404s] [ 93%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_robot_info_s.c.o[0m
+[69.653s] [ 94%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_torque_enable_s.c.o[0m
+[69.841s] [ 95%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_group_command_s.c.o[0m
+[70.010s] [ 95%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_hex_joy_s.c.o[0m
+[70.190s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/libinterbotix_xs_msgs__rosidl_generator_py.so[0m
+[70.264s] [ 96%] Built target interbotix_xs_msgs__rosidl_generator_py
+[70.281s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[70.301s] [ 97%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[70.590s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[70.657s] [ 97%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[70.675s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_c__pyext[0m
+[70.696s] [ 98%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[70.981s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[71.050s] [ 98%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[71.067s] [35m[1mConsolidate compiler generated dependencies of target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[71.088s] [ 99%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[71.350s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[71.424s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[71.441s] Invoked command in '/home/locobot/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/detection:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4
+[72.114s] Invoking command in '/home/locobot/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/detection:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/interbotix_ws/build/interbotix_xs_msgs
+[72.130s] -- Install configuration: ""
+[72.130s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_xs_msgs
+[72.130s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.131s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.131s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.h
+[72.131s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.h
+[72.132s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.h
+[72.132s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.133s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.h
+[72.133s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.h
+[72.134s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__functions.h
+[72.134s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__functions.h
+[72.135s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.h
+[72.135s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__functions.c
+[72.135s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__functions.h
+[72.136s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.h
+[72.136s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.h
+[72.136s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.h
+[72.137s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__functions.h
+[72.137s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__functions.c
+[72.137s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.h
+[72.138s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__functions.h
+[72.138s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__functions.c
+[72.139s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.h
+[72.139s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.h
+[72.139s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.h
+[72.140s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__functions.c
+[72.140s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__functions.c
+[72.140s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__functions.c
+[72.141s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__functions.h
+[72.141s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.h
+[72.141s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.h
+[72.142s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.h
+[72.143s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.h
+[72.143s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.h
+[72.143s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.143s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.h
+[72.144s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.h
+[72.144s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.144s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__functions.h
+[72.145s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__functions.h
+[72.145s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.h
+[72.145s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.h
+[72.146s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__functions.h
+[72.146s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.h
+[72.146s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__functions.h
+[72.147s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__functions.c
+[72.147s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.h
+[72.148s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.h
+[72.148s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.h
+[72.149s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__functions.h
+[72.149s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.h
+[72.149s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__functions.c
+[72.150s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__functions.c
+[72.150s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__functions.h
+[72.151s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.h
+[72.151s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.h
+[72.151s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.h
+[72.152s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.c
+[72.152s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.h
+[72.153s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.h
+[72.153s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__functions.c
+[72.154s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.h
+[72.154s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.h
+[72.155s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__functions.h
+[72.155s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.h
+[72.155s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__functions.c
+[72.156s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.h
+[72.156s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__functions.c
+[72.157s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.h
+[72.157s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__functions.c
+[72.158s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.h
+[72.158s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.h
+[72.158s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.h
+[72.159s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.h
+[72.159s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.h
+[72.159s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_generator_c__visibility_control.h
+[72.160s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.h
+[72.160s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.sh
+[72.161s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.dsv
+[72.161s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so
+[72.162s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so" to ""
+[72.163s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.163s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.163s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.163s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_c.h
+[72.164s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_c.h
+[72.164s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_c.h
+[72.164s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_c.h
+[72.164s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[72.165s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_c.h
+[72.165s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.165s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[72.166s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.166s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_c.h
+[72.166s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_c.h
+[72.167s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_c.h
+[72.167s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_c.h
+[72.167s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_c.h
+[72.168s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_c.h
+[72.168s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_c.h
+[72.168s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_c.h
+[72.170s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so
+[72.171s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[72.171s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.171s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.172s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.172s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.c
+[72.172s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_c.h
+[72.173s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_c.h
+[72.173s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.c
+[72.173s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_c.h
+[72.174s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.c
+[72.174s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_c.h
+[72.175s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_c.h
+[72.175s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_c.h
+[72.176s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.c
+[72.176s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.c
+[72.176s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.c
+[72.177s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.177s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.177s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.c
+[72.178s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.c
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.c
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.c
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.c
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_c.h
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.c
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_c.h
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_c.h
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_c.h
+[72.180s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.c
+[72.181s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_c.h
+[72.181s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_c.h
+[72.181s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.c
+[72.182s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_c.h
+[72.182s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_c.h
+[72.182s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[72.183s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so
+[72.183s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so" to ""
+[72.184s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so
+[72.185s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so" to ""
+[72.185s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.186s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.186s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.hpp
+[72.186s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.hpp
+[72.187s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.187s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.hpp
+[72.187s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.hpp
+[72.188s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__builder.hpp
+[72.188s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__builder.hpp
+[72.188s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__builder.hpp
+[72.188s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__traits.hpp
+[72.189s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.hpp
+[72.189s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__builder.hpp
+[72.189s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.hpp
+[72.190s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__traits.hpp
+[72.190s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__traits.hpp
+[72.191s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__traits.hpp
+[72.191s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.hpp
+[72.191s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__traits.hpp
+[72.192s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.hpp
+[72.192s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.hpp
+[72.192s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__builder.hpp
+[72.193s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__builder.hpp
+[72.193s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.hpp
+[72.193s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.hpp
+[72.194s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.hpp
+[72.194s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.hpp
+[72.194s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__traits.hpp
+[72.195s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.hpp
+[72.195s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.hpp
+[72.195s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.hpp
+[72.196s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.hpp
+[72.196s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.hpp
+[72.196s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.197s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.hpp
+[72.197s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[72.197s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.hpp
+[72.198s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.198s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.hpp
+[72.198s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__builder.hpp
+[72.199s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__traits.hpp
+[72.199s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__builder.hpp
+[72.200s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.hpp
+[72.200s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__traits.hpp
+[72.200s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__builder.hpp
+[72.201s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__traits.hpp
+[72.201s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.hpp
+[72.201s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.hpp
+[72.202s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.hpp
+[72.202s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__builder.hpp
+[72.202s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__builder.hpp
+[72.203s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.hpp
+[72.204s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.hpp
+[72.205s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__traits.hpp
+[72.205s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__builder.hpp
+[72.205s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.hpp
+[72.206s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__traits.hpp
+[72.206s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__builder.hpp
+[72.206s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.hpp
+[72.207s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.hpp
+[72.207s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.hpp
+[72.207s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.hpp
+[72.208s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.hpp
+[72.208s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.hpp
+[72.208s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.hpp
+[72.209s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__builder.hpp
+[72.209s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.hpp
+[72.210s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__traits.hpp
+[72.210s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__traits.hpp
+[72.210s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__traits.hpp
+[72.211s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.hpp
+[72.211s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.hpp
+[72.212s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.hpp
+[72.212s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.hpp
+[72.212s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.hpp
+[72.213s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.hpp
+[72.213s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.214s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.214s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.214s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[72.214s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_cpp.hpp
+[72.215s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_cpp.hpp
+[72.215s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/dds_fastrtps
+[72.215s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_cpp.hpp
+[72.216s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[72.216s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_cpp.hpp
+[72.217s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.217s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.217s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[72.217s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_cpp.hpp
+[72.218s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_cpp.hpp
+[72.218s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/dds_fastrtps
+[72.218s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[72.219s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[72.219s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[72.220s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_cpp.hpp
+[72.220s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_cpp.hpp
+[72.220s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.221s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so
+[72.222s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[72.223s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs
+[72.223s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv
+[72.223s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail
+[72.223s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.cpp
+[72.224s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.cpp
+[72.224s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_cpp.hpp
+[72.227s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_cpp.hpp
+[72.227s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.cpp
+[72.227s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_cpp.hpp
+[72.229s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.cpp
+[72.229s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[72.230s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.cpp
+[72.231s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_cpp.hpp
+[72.231s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_cpp.hpp
+[72.232s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.cpp
+[72.232s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg
+[72.232s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail
+[72.233s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.cpp
+[72.233s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.cpp
+[72.234s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_cpp.hpp
+[72.234s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.cpp
+[72.234s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_cpp.hpp
+[72.235s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.cpp
+[72.235s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_cpp.hpp
+[72.236s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_cpp.hpp
+[72.236s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.cpp
+[72.237s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_cpp.hpp
+[72.237s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.cpp
+[72.237s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_cpp.hpp
+[72.238s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_cpp.hpp
+[72.238s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.cpp
+[72.239s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_cpp.hpp
+[72.239s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.cpp
+[72.241s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so
+[72.242s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[72.242s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so
+[72.243s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so" to ""
+[72.244s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.sh
+[72.244s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.dsv
+[72.244s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info
+[72.245s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[72.245s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[72.246s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[72.246s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[72.246s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs
+[72.247s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/libinterbotix_xs_msgs__rosidl_generator_py.so
+[72.248s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c
+[72.248s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.248s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/__init__.py
+[72.249s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[72.249s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.249s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv
+[72.250s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains.py
+[72.251s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable.py
+[72.251s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes_s.c
+[72.251s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info.py
+[72.252s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values_s.c
+[72.252s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes.py
+[72.253s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/__init__.py
+[72.253s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values.py
+[72.253s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable_s.c
+[72.254s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info_s.c
+[72.254s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot.py
+[72.255s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains_s.c
+[72.255s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot_s.c
+[72.256s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.256s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[72.257s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg
+[72.257s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy.py
+[72.258s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy_s.c
+[72.258s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps_s.c
+[72.258s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy_s.c
+[72.259s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py
+[72.259s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command_s.c
+[72.259s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/__init__.py
+[72.260s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps.py
+[72.261s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy_s.c
+[72.261s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy.py
+[72.261s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy.py
+[72.262s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c
+[72.262s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy.py
+[72.262s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command.py
+[72.263s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy_s.c
+[72.263s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command_s.c
+[72.264s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command.py
+[72.379s] Listing '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs'...
+[72.379s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/__init__.py'...
+[72.379s] Listing '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg'...
+[72.379s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/__init__.py'...
+[72.379s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy.py'...
+[72.379s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy.py'...
+[72.379s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy.py'...
+[72.380s] Listing '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/__init__.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values.py'...
+[72.380s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info.py'...
+[72.381s] Compiling '/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable.py'...
+[72.388s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.388s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.388s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.388s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.388s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.389s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[72.389s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_py.so
+[72.390s] -- Set runtime path of "/home/locobot/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_py.so" to ""
+[72.391s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.idl
+[72.391s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.idl
+[72.391s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.idl
+[72.392s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.idl
+[72.393s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.idl
+[72.393s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.idl
+[72.393s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.idl
+[72.394s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.idl
+[72.394s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.idl
+[72.394s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.msg
+[72.395s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.msg
+[72.395s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.msg
+[72.395s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.msg
+[72.396s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.msg
+[72.396s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg
+[72.396s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.msg
+[72.397s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.msg
+[72.397s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.srv
+[72.397s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Request.msg
+[72.398s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Response.msg
+[72.398s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.srv
+[72.398s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Request.msg
+[72.399s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Response.msg
+[72.399s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.srv
+[72.399s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Request.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Response.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.srv
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Request.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Response.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.srv
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Request.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Response.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.srv
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Request.msg
+[72.400s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Response.msg
+[72.401s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_msgs
+[72.401s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_msgs
+[72.402s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.sh
+[72.402s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.dsv
+[72.403s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.sh
+[72.403s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.dsv
+[72.404s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.bash
+[72.404s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.sh
+[72.405s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.zsh
+[72.405s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.dsv
+[72.405s] -- Installing: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.dsv
+[72.406s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/packages/interbotix_xs_msgs
+[72.407s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport.cmake
+[72.407s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport-noconfig.cmake
+[72.407s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[72.408s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[72.408s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport.cmake
+[72.409s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[72.410s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport.cmake
+[72.410s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[72.410s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cppExport.cmake
+[72.411s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[72.412s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[72.412s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[72.412s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[72.413s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport.cmake
+[72.413s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[72.414s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport.cmake
+[72.414s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport-noconfig.cmake
+[72.415s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake-extras.cmake
+[72.415s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.415s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.415s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[72.415s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[72.416s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[72.416s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[72.416s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig.cmake
+[72.417s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig-version.cmake
+[72.417s] -- Up-to-date: /home/locobot/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.xml
+[72.423s] Invoked command in '/home/locobot/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/locobot_ws/install/yolov8_ros:/home/locobot/locobot_ws/install/detection:/home/locobot/locobot_ws/install/locobot_move:/home/locobot/locobot_ws/install/create3_teleop:/home/locobot/locobot_ws/install/create3_examples_py:/home/locobot/interbotix_ws/install/interbotix_xslocobot_control:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/interbotix_ws/build/interbotix_xs_msgs

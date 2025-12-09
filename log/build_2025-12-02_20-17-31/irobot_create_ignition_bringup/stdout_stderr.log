@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[33mCMake Warning at CMakeLists.txt:13 (message):
+  ros_ign_interfaces not found.  Skipping irobot_create_ignition_bringup
+  package.
+
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/interbotix_ws/build/irobot_create_ignition_bringup
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_bringup
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_bringup
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/environment/path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/environment/path.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/local_setup.bash
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/local_setup.sh
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/local_setup.zsh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/local_setup.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/package.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/ament_index/resource_index/packages/irobot_create_ignition_bringup
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/cmake/irobot_create_ignition_bringupConfig.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/cmake/irobot_create_ignition_bringupConfig-version.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_ignition_bringup/share/irobot_create_ignition_bringup/package.xml

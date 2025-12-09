@@ -1,0 +1,5 @@
+[33mCMake Warning at CMakeLists.txt:13 (message):
+  ros_ign_interfaces not found.  Skipping irobot_create_ignition_bringup
+  package.
+
+[0m

@@ -1,0 +1,83 @@
+[0.031s] Invoking command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/interbotix_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/locobot/interbotix_ws/install/irobot_create_toolbox
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.781s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.000s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.015s] -- Searching for dependencies of ignition-math6
+[1.024s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.133s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.150s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.179s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.433s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.444s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.633s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.678s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.782s] -- Looking for pthread.h
+[1.892s] -- Looking for pthread.h - found
+[1.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.996s] -- Found Threads: TRUE  
+[2.191s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.347s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.347s] -- Configured cppcheck include dirs: /home/locobot/interbotix_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox/include
+[2.347s] -- Configured cppcheck exclude dirs and/or files: 
+[2.348s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.349s] -- Configured cpplint exclude dirs and/or files: 
+[2.350s] -- Added test 'lint_cmake' to check CMake code style
+[2.352s] -- Added test 'uncrustify' to check C / C++ code style
+[2.353s] -- Configured uncrustify additional arguments: 
+[2.360s] -- Added test 'xmllint' to check XML markup files
+[2.365s] -- Configuring done
+[2.376s] -- Generating done
+[2.379s] -- Build files have been written to: /home/locobot/interbotix_ws/build/irobot_create_toolbox
+[2.404s] Invoked command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/locobot/interbotix_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/locobot/interbotix_ws/install/irobot_create_toolbox
+[2.405s] Invoking command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/interbotix_ws/build/irobot_create_toolbox -- -j4 -l4
+[2.507s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_toolbox.dir/src/polar_coordinates.cpp.o[0m
+[5.585s] [100%] [32m[1mLinking CXX shared library libirobot_create_toolbox.so[0m
+[5.824s] [100%] Built target irobot_create_toolbox
+[5.849s] Invoked command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/locobot/interbotix_ws/build/irobot_create_toolbox -- -j4 -l4
+[5.890s] Invoking command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/interbotix_ws/build/irobot_create_toolbox
+[5.901s] -- Install configuration: ""
+[5.901s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[5.903s] -- Set runtime path of "/home/locobot/interbotix_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so" to ""
+[5.903s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include
+[5.903s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include/irobot_create_toolbox
+[5.903s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[5.903s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[5.904s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[5.905s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[5.906s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[5.907s] -- Installing: /home/locobot/interbotix_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[5.909s] Invoked command in '/home/locobot/interbotix_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/locobot/interbotix_ws/install/interbotix_xs_modules:/home/locobot/interbotix_ws/install/interbotix_perception_modules:/home/locobot/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/locobot/interbotix_ws/build/irobot_create_toolbox

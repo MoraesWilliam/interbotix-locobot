@@ -1,0 +1,20 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/interbotix_ws/build/irobot_create_gazebo_sim
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_sim
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_sim
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/environment/path.sh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/environment/path.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/local_setup.bash
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/local_setup.sh
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/local_setup.zsh
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/local_setup.dsv
+-- Installing: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/package.dsv
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/ament_index/resource_index/packages/irobot_create_gazebo_sim
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/cmake/irobot_create_gazebo_simConfig.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/cmake/irobot_create_gazebo_simConfig-version.cmake
+-- Up-to-date: /home/locobot/interbotix_ws/install/irobot_create_gazebo_sim/share/irobot_create_gazebo_sim/package.xml
